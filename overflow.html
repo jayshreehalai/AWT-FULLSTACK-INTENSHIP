@@ -1,18 +1,25 @@
 <html>
     <head>
         <title>demo background video</title>
-        <style type="text/css">
-            .fullscreen_bg{
-                position: fixed;
-                top: 0;
-                right:0;
-                bottom: 0;
-                left: 0;
-                overflow: scroll;
-                z-index: -1;
-                background-color: cover;
+        <style>
+            .video{
+                position: absolute;
+                left: 0px;
+                top: 0%;
+                height: 370px;
+                width: 670px;
+                z-index:-1;
             }
-        </style>
+            p{
+                position: absolute;
+                color: aquamarine;
+                margin: 0%;
+                z-index: 0;
+            }
+           </style>
     </head>
-    <body 
+    <body>
+        <p>stay happy and keep dancing</p>
+        <video class="video"src="dance video.mp4" controls></video>
+    </body>
 </html>
